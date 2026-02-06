@@ -14,6 +14,10 @@
 你可以在非商业用途下自由使用、修改和分享本软件。
 禁止任何形式的商业用途，包括出售本软件或将其作为付费服务提供。
 
+更新日志：
+
+2026/02/06，版本 A.1：实现自相交曲面的生成。
+
 This project aims to provide a way to use the curved surface described by parametric equations in minecraft. The input is the functions $(x,y,z)=(f_x(u,v),f_y(u,v),f_z(u,v))$ and the plot range of the parameters $u,v$, in the form of $u_1\leq u\leq u_2, h_1(u)\leq v\leq h_2(u)$. The output is the .schem file that can be directly read by mods like WorldEdit.
 
 Although it is possible to generate curved surface with WorldEdit itself (using `//g [pattern] -h [expression]`), this approach breaks down in some cases:
@@ -27,3 +31,7 @@ This project is licensed under the PolyForm Noncommercial License 1.0.0.
 
 You are free to use, modify, and share this software for non-commercial purposes.
 Commercial use, including selling the software or offering it as a paid service, is not permitted.
+
+Update Log:
+
+Feb 06 2026, version A.1: implement the generation of self-crossing surface
